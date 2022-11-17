@@ -1,0 +1,80 @@
+
+.focim1 {
+    padding: 20px;
+    background-color: rgba(147, 47, 47, 0.2);
+}
+
+h1 {
+ text-align: center;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 60px;
+ 
+}
+
+.label {
+    background-color: blueviolet;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.container .image-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   justify-content: center;
+}
+.container .image-container .image {
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.container .image-container .image img {
+    height: 100%;
+    width: 100%;
+}
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: auto;
+    margin-top: -25%;
+}
+.box {
+    width: 200px;
+    height: 300px;
+    background: wheat;
+    margin: 20px;
+    width: 20%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    border: solid 2px;
+    box-shadow: 10px 10px gray;
+    position: relative;
+    top: 10px;
+}
+.label2  {
+    padding-left: 95%;
+}
+button {
+    background-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 50px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,13 @@
+* {
+    background-color: beige;
+}
+h2 {
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: 1px solid black;
+background-color:ghostwhite;
+}
+
+tbody {
+    background-color: ghostwhite;
+}
