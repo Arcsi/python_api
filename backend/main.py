@@ -75,7 +75,7 @@ def updaterecord():
 
         with sqlite3.connect("cars.db") as con:
             cur = con.cursor()
-            cur.execute("UPDATE Cars SET name=?, email=?, address=? number=?, country=?, WHERE id=?", (name, email, address, number ,country +id))
+            cur.execute("UPDATE Cars SET name=?, email=?, address=?, number=?, country=?  WHERE id=?", (name, email, address, number ,country,id))
             con.commit()
             msg = "Cars successfully Updated"
     except:
